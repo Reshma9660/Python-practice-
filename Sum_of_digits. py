@@ -1,0 +1,7 @@
+n = input("Enter number: ")
+sum = 0
+
+for ch in n:
+    sum = sum + int(ch)
+
+print("Sum of digits:", sum)
